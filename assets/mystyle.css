@@ -1,0 +1,64 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.cont {
+    width: 100%;
+    height: 100vh;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mycal {
+    background-image: url(https://i.postimg.cc/wTwN7GZc/inam.jpg);
+    border-radius: 25px;
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 50px;
+}
+.mycal div button {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    background: transparent;
+    margin: 5px;
+    box-shadow:  0 0 1rem black;
+}
+.mycal div button:hover {
+    background-color: beige;
+    color: black;
+    box-shadow: 0 0 1rem beige;
+}
+div .yourview {
+    justify-content: center;
+    display: flex;
+}
+div .heading {
+    justify-content: center;
+    display: flex;
+    font-size: large;
+    font-weight: bolder;
+}
+#space {
+    width: 320px;
+    height: 50px;
+    background: transparent;
+    border-radius: 7px;
+    box-shadow: 0 0 1rem black;
+}
+#space:hover {
+    background-color: beige;
+    color: black;
+    border-color: black;
+    box-shadow: 0 0 1rem beige;
+}
+#equalsign {
+    width: 155px;
+}
+
