@@ -15,7 +15,7 @@
 }
 
 .mycal {
-    background-image: url(https://i.postimg.cc/wTwN7GZc/inam.jpg);
+    background-image: url(https://i.postimg.cc/wTwN7GZc/inam.jpg); 
     border-radius: 25px;
     padding: 25px;
     background-repeat: no-repeat;
@@ -27,6 +27,7 @@
     height: 70px;
     border-radius: 10px;
     font-size: 25px;
+    font-weight: bolder;
     background: transparent;
     margin: 5px;
     box-shadow:  0 0 1rem black;
@@ -47,7 +48,7 @@ div .heading {
     font-weight: bolder;
 }
 #space {
-    width: 320px;
+    width: 297px;
     margin-left: 5px;
     height: 50px;
     background: transparent;
@@ -98,9 +99,8 @@ div .heading {
     }
 }*/
 
-@media screen and (max-width: 520px) {
+/* @media screen and (max-width: 520px) {
     .mycal {
-       background-image: url(https://i.postimg.cc/wTwN7GZc/inam.jpg);
         border-radius: 25px;
         padding: 25px;
         background-repeat: no-repeat;
@@ -114,7 +114,6 @@ div .heading {
 }
 @media screen and (max-width: 420px) {
     .mycal {
-       background-image: url(https://i.postimg.cc/wTwN7GZc/inam.jpg);
         border-radius: 25px;
         padding: 25px;
         background-repeat: no-repeat;
@@ -128,7 +127,7 @@ div .heading {
 }
 @media screen and (max-width: 400px) {
     .mycal {
-       background-image: url(https://i.postimg.cc/wTwN7GZc/inam.jpg);
+       
         border-radius: 25px;
         padding: 25px;
         background-repeat: no-repeat;
@@ -142,7 +141,7 @@ div .heading {
 }
 @media screen and (max-width: 390px) {
     .mycal {
-       background-image: url(https://i.postimg.cc/wTwN7GZc/inam.jpg);
+       
         border-radius: 25px;
         padding: 25px;
         background-repeat: no-repeat;
@@ -157,7 +156,7 @@ div .heading {
 }
 @media screen and (max-width: 380px) {
     .mycal {
-       background-image: url(https://i.postimg.cc/wTwN7GZc/inam.jpg);
+       
         border-radius: 25px;
         padding: 25px;
         background-repeat: no-repeat;
@@ -176,5 +175,43 @@ div .heading {
         margin-top: 100px;
     }
     
+} */
+
+@media screen and (max-width: 300px) {
+    .mycal {
+       
+        border-radius: 25px;
+        padding: 25px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: -100px;
+        margin-left: -25px;
+        margin-right: -25px;
+        margin-bottom: -100px;
+    } 
+    
+    #space {
+        width: 284px;
+        height: 50px;
+        border-radius: 5px;
+    }
+    #equalsign {
+        width: 135px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .mycal {
+       
+        border-radius: 25px;
+        padding: 25px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: -100px;
+        margin-left: -25px;
+        margin-right: -25px;
+        margin-bottom: -100px;
+        width: 370px;
+    }
 }
 
